@@ -1,0 +1,33 @@
+.todo {
+    margin-bottom: 1rem;
+}
+
+.todo span.completed {
+    text-decoration: line-through;
+}
+
+.todo label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #f3f3f3;
+    padding: 1rem;
+}
+
+.todo i {
+    z-index: 2;
+}
+
+.delete-btn{
+    background-color: red;
+}
+
+.brand-logo {
+    margin-left: 20px;
+}
+
+#nav-mobile {
+    margin-right: 20px;
+}
